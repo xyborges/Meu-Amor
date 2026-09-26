@@ -752,22 +752,8 @@ header h1 {
 
 .photo.big {
     grid-column: 1 / 3;
+
     height: 340px;
-
-    /* Mostra a foto inteira */
-    background: #18070e;
-}
-
-.photo.big img {
-    object-fit: contain;
-    padding: 8px;
-
-    /* Mantém a foto inteira sem cortar */
-    transform: none !important;
-}
-
-.photo.big:hover img {
-    transform: scale(1.02) !important;
 }
 
 .photo.small {
@@ -899,6 +885,7 @@ footer {
     }
 }
 
+
 /* =========================================================
    RESPONSIVO
 ========================================================= */
@@ -936,16 +923,6 @@ footer {
 
     .final-section h4 {
         font-size: 52px;
-    }
-    .photo.big {
-        height: auto;
-        min-height: 300px;
-    }
-
-    .photo.big img {
-        height: auto;
-        min-height: 300px;
-        object-fit: contain;
     }
 }
 
